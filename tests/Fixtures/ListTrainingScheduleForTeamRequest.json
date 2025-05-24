@@ -1,0 +1,60 @@
+{
+  "INDOOR": {
+    "MONDAY": [
+      {
+        "id": "b8cd5a5a-0c47-47c7-97bb-2cd8d6e2bf17",
+        "startTime": "1970-01-01T18:00:00.000+00:00",
+        "endTime": "1970-01-01T19:00:00.000+00:00",
+        "locations": [
+          {
+            "location": {
+              "id": "315cb5c8-6dff-4141-95c0-2e4ad2a527b3",
+              "name": "De goot",
+              "fieldType": "INDOOR",
+              "order": 2
+            },
+            "team": {
+              "id": "c740ac16-3ace-4178-bbc6-ed51c213e3ca",
+              "name": "SVM 1"
+            }
+          }
+        ]
+      }
+    ],
+    "THURSDAY": [
+      {
+        "id": "f580f900-8d45-4ea7-94e9-f09bf0f41dae",
+        "startTime": "1970-01-01T18:30:00.000+00:00",
+        "endTime": "1970-01-01T19:30:00.000+00:00",
+        "locations": [
+          {
+            "location": {
+              "id": "d08b22ba-eed4-433c-b656-6526b6dccfe0",
+              "name": "Yanmar Stadion",
+              "fieldType": "INDOOR",
+              "order": 2
+            },
+            "team": {
+              "id": "c740ac16-3ace-4178-bbc6-ed51c213e3ca",
+              "name": "SVM 1"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "locations": [
+    {
+      "id": "315cb5c8-6dff-4141-95c0-2e4ad2a527b3",
+      "name": "De goot",
+      "fieldType": "OUTDOOR",
+      "order": 1
+    },
+    {
+      "id": "d08b22ba-eed4-433c-b656-6526b6dccfe0",
+      "name": "Yanmar Stadion",
+      "fieldType": "INDOOR",
+      "order": 1
+    }
+  ]
+}

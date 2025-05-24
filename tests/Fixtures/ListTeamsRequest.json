@@ -1,0 +1,74 @@
+[
+  {
+    "id": "c740ac16-3ace-4178-bbc6-ed51c213e3ca",
+    "name": "SVM 1",
+    "fieldType": "INDOOR",
+    "coaches": [
+      {
+        "user": {
+          "fullName": "Arne Slot",
+          "privacy": "FULL_NAME"
+        }
+      }
+    ],
+    "players": [
+      {
+        "user": {
+          "fullName": "Mark van Bommel",
+          "privacy": "FULL_NAME"
+        }
+      },
+      {
+        "user": {
+          "fullName": "Jasper Cillessen",
+          "privacy": "FULL_NAME"
+        }
+      }
+    ],
+    "managers": [
+      {
+        "user": {
+          "fullName": "John de Wolf",
+          "privacy": "FULL_NAME"
+        }
+      }
+    ],
+    "otherMembers": []
+  },
+  {
+    "id": "c5a46da1-e98e-4092-b39b-9cfdbdc75686",
+    "name": "SVM 2",
+    "fieldType": "OUTDOOR",
+    "coaches": [
+      {
+        "user": {
+          "fullName": "Ronald Koeman",
+          "privacy": "FULL_NAME"
+        }
+      }
+    ],
+    "players": [
+      {
+        "user": {
+          "fullName": "Bram van Polen",
+          "privacy": "FULL_NAME"
+        }
+      },
+      {
+        "user": {
+          "fullName": "Anco Jansen",
+          "privacy": "FULL_NAME"
+        }
+      }
+    ],
+    "managers": [
+      {
+        "user": {
+          "fullName": "Francesco Farioli",
+          "privacy": "FULL_NAME"
+        }
+      }
+    ],
+    "otherMembers": []
+  }
+]

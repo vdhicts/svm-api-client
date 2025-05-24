@@ -1,0 +1,26 @@
+[
+  {
+    "id": "96d572fc-cad5-4136-a70b-304196c242fa",
+    "name": "European Commission",
+    "users": [
+      {
+        "user": {
+          "fullName": "Ursula von der Leyen",
+          "privacy": "FULL_NAME"
+        }
+      },
+      {
+        "user": {
+          "fullName": "Kaja Kallas",
+          "privacy": "FULL_NAME"
+        }
+      },
+      {
+        "user": {
+          "fullName": "Henna Virkkunen",
+          "privacy": "FULL_NAME"
+        }
+      }
+    ]
+  }
+]
