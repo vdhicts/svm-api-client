@@ -33,7 +33,9 @@ class ProgramMatchFactory
 
         return new ProgramMatch(
             date: Carbon::parse(Arr::get($data, 'date')),
-            accommodation: AccommodationFactory::fromArray(Arr::get($data, 'accommodation')),
+            accommodation: Arr::get($data, 'accommodation') === null
+                ? null
+                : AccommodationFactory::fromArray(Arr::get($data, 'accommodation')),
             attendanceTime: Arr::get($data, 'attendanceTime'),
             id: Arr::get($data, 'id'),
             transporterAssignment: collect(Arr::get($data, 'transporterAssignment'))->map(fn (array $transporter): User => UserFactory::fromArray(Arr::get($transporter, 'user'))),

@@ -13,7 +13,7 @@ class ProgramMatch
      */
     public function __construct(
         public CarbonInterface $date,
-        public Accommodation $accommodation,
+        public ?Accommodation $accommodation,
         public string $attendanceTime,
         public string $id,
         public Collection $transporterAssignment,
