@@ -37,10 +37,13 @@ class ListResultsRequest extends Request
     {
         $data = collect();
 
-        foreach ($response->json() as $dateString => $result) {
+        foreach ($response->json() as $dateString => $results) {
             $data->put(
                 key: $dateString,
-                value: MatchResultFactory::fromArray($result),
+                value: array_map(
+                    fn (array $resultData) => MatchResultFactory::fromArray($resultData),
+                    $results,
+                ),
             );
         }
 
