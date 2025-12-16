@@ -35,7 +35,7 @@ class ListProgramRequest extends Request
     {
         return array_filter([
             'date' => $this->date?->format('Y-m-d'),
-            'reserves' => $this->reserves,
+            'reserves' => $this->reserves ? 'true' : 'false',
             'location' => $this->location?->value,
             'levelType' => $this->levelType?->value,
             'sortBy' => $this->sortBy?->value,

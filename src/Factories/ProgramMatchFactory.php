@@ -38,7 +38,7 @@ class ProgramMatchFactory
                 : AccommodationFactory::fromArray(Arr::get($data, 'accommodation')),
             attendanceTime: Arr::get($data, 'attendanceTime'),
             id: Arr::get($data, 'id'),
-            transporterAssignment: collect(Arr::get($data, 'transporterAssignment'))->map(fn (array $transporter): User => UserFactory::fromArray(Arr::get($transporter, 'user'))),
+            transporterAssignment: collect(Arr::get($data, 'transporterAssignments'))->map(fn (array $transporter): User => UserFactory::fromArray(Arr::get($transporter, 'user'))),
             homeTeamName: Arr::get($data, 'homeTeamName'),
             awayTeamName: Arr::get($data, 'awayTeamName'),
             isPracticeMatch: Arr::get($data, 'isPracticeMatch'),
